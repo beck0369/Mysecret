@@ -10,6 +10,6 @@ public class Zoo : MonoBehaviour
         tom.name = "Åè";
         tom.sound = "³Ä¿Ë";
 
-        tom.PlaySound();
+        tom.PlaySound(); 
     }
 }

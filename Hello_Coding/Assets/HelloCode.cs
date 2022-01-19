@@ -103,6 +103,24 @@ public class HelloCode : MonoBehaviour
     //}
 
 
+    //private void Start()
+    //{
+    //    int[] student = new int[5];
+
+    //    student[0] = 100;
+    //    student[1] = 90;
+    //    student[2] = 80;
+    //    student[3] = 70;
+    //    student[4] = 60;
+
+    //    Debug.Log("0번 학생의 점수 : " + student[0]);
+    //    Debug.Log("1번 학생의 점수 : " + student[1]);
+    //    Debug.Log("2번 학생의 점수 : " + student[2]);
+    //    Debug.Log("3번 학생의 점수 : " + student[3]);
+    //    Debug.Log("4번 학생의 점수 : " + student[4]);
+    //}
+
+
     private void Start()
     {
         int[] student = new int[5];
@@ -113,10 +131,9 @@ public class HelloCode : MonoBehaviour
         student[3] = 70;
         student[4] = 60;
 
-        Debug.Log("0번 학생의 점수 : " + student[0]);
-        Debug.Log("1번 학생의 점수 : " + student[1]);
-        Debug.Log("2번 학생의 점수 : " + student[2]);
-        Debug.Log("3번 학생의 점수 : " + student[3]);
-        Debug.Log("4번 학생의 점수 : " + student[4]);
+        for(int i = 4; i >= 0;i--)
+        {
+            Debug.Log((i + 1) + " 번 학생의 점수 : " + student[i]);
+        }
     }
 }

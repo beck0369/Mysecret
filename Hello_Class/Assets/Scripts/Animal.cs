@@ -10,8 +10,6 @@ public class Animal
     
     public void PlaySound()
     {
-        name = "±Ýºñ";
-        sound = "¿¡¿Ë";
         Debug.Log(name + " : " + sound);
     }
 }

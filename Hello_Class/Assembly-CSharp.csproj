@@ -53,8 +53,9 @@
     <UnityVersion>2020.3.24f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Animal.cs" />
     <Compile Include="Assets\Scripts\Zoo.cs" />
+    <Compile Include="Assets\Scripts\Animal.cs" />
+    <Compile Include="Assets\Scripts\Jumper.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
